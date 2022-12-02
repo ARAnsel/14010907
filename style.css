@@ -1,0 +1,284 @@
+body{
+    background-color: #18181b;
+    height: 310vh;
+    box-shadow: 0 4px 8px 0 coral, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+header{
+    position:sticky;
+    top: 0;
+}
+.div1{
+    background-color: coral;
+}
+.logo{
+    float: left;
+    width: 79px;
+    height: 79px;
+    box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}button{
+    float: right;
+    text-align: center;
+    margin: 28px;
+    background-color: black;
+    color: aliceblue;
+    padding: 8px;
+    font-family: fantasy;
+    box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h1{
+    text-align: center;
+    display: inline-block;
+    margin-left: 43%;
+    font-family:fantasy;
+    box-shadow: 0 10px 20px 0 black, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+nav{
+    position: static;
+}
+ul{
+    margin: 2%;
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 25px 0;
+    border-radius: 25px;
+    border: 0.lpx solid #099fff;
+    background-color: #18181b;
+    box-shadow: 0 4px 8px 0 coral, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family:fantasy;
+}
+li{
+    margin: auto;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+li.after{
+    display: block;
+}
+li:hover:after{
+  transform: scaleX(1);
+}
+.img1{
+text-align: center;
+color: white;
+font-size: medium;
+font-family: fantasy;
+display: inline block;
+margin: auto;
+margin-left: 30%;
+border: 0.lpx solid #099fff;
+box-shadow: 0 4px 8px 0 coral, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.img1 img{
+    height: 150px;
+    width: 150px;
+    position: static;
+}
+.img2{
+    text-align: center;
+    color: white;
+    font-size: medium;
+    font-family: fantasy;
+    display: inline block;
+    margin: auto;
+    margin-left: 30%;
+    border: 0.lpx solid #099fff;
+    box-shadow: 0 4px 8px 0 coral, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .img2 img{
+        height: 150px;
+        width: 150px;
+        position: static;
+    }
+    .img3{
+        text-align: center;
+        color: white;
+        font-size: medium;
+        font-family: fantasy;
+        display: inline block;
+        margin: auto;
+        margin-left: 30%;
+        border: 0.lpx solid #099fff;
+        box-shadow: 0 4px 8px 0 coral, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }    
+        .img3 img{
+            height: 150px;
+            width: 150px;
+            position: static;
+        }
+        .img4{
+            text-align: center;
+            color: white;
+            font-size: medium;
+            font-family: fantasy;
+            display: inline block;
+            margin: auto;
+            margin-left: 30%;
+            border: 0.lpx solid #099fff;
+            box-shadow: 0 4px 8px 0 coral, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }    
+            .img4 img{
+                height: 150px;
+                width: 150px;
+                position: static;
+            }
+    div.store{
+        display: flex;       
+        position: absolute;   
+        flex-direction: row;
+    }
+    h2{
+        margin-block-start: 25%;
+        color:white;
+        font-family: fantasy;
+        font-size: 38px;
+        margin-left: 10%; 
+    }  
+.backimg{
+    font-family: fantasy;
+    margin-block-start: 45%;
+    color: white;
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(image/background.jpg);
+    background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 50px;
+}
+.foot{
+    font-size: 22px;
+    margin-block-start: 24%;
+    margin-left: 10%;
+    color: white;
+    font-family: fantasy;
+   display: inline-block;
+}
+.login-box{
+position:absolute;
+top: 50%;
+left: 50%;
+width: 400px;
+padding: 40px;
+transform: translate(-50% , -50%);
+background:#242026 ;
+box-shadow: 0 4px 8px 0 coral, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+border-radius: 10px;
+color: white;
+position: fixed;
+}
+.login-box h2{
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+.login-box .user input{
+    position: relative;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background: transparent;
+}
+.login-box .user label{
+font-family: fantasy;  
+}
+.login-box .user input:focus-label,
+.login-box .user input:valid-label{
+top: -85px;
+left: 0;
+color: #Bf7cec;
+font-size: 12px;
+}
+#submit{
+    padding: 10px 20px;
+    color: coral;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    border: 1px solid coral;
+    margin: auto;
+}
+#submit:hover{
+    background: coral;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 coral, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-duration: 0.6s;
+}
+.but{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    font-family: fantasy;
+}
+#register{
+    font-size: 14px;
+    text-decoration: none;
+    color:coral;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    font-family: fantasy;
+}
+#register a{
+    margin: auto;
+    color: white;
+    text-decoration: none;
+    font-family: fantasy;
+}
+.regis{
+    font-family: fantasy;
+}
+#last{
+    margin-block-start: 25%;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 coral, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   float: right;
+   position: sticky;
+   bottom: 0;
+   cursor: pointer;
+}
+#last:hover{
+    background-color: coral;
+    box-shadow: 0 4px 8px 0 coral, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.img1:hover{
+    background-color: coral;
+    color: white;
+    box-shadow: 0 4px 8px 0 coral, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.img2:hover{
+    background-color: coral;
+    color: white;
+    box-shadow: 0 4px 8px 0 coral, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.img3:hover{
+    background-color: coral;
+    color: white;
+    box-shadow: 0 4px 8px 0 coral, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.img4:hover{
+    background-color: coral;
+    color: white;
+    box-shadow: 0 4px 8px 0 coral, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#register:hover{
+    box-shadow: 0 4px 8px 0 coral, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+}
+
+
